@@ -1,17 +1,12 @@
 import React from "react";
 import s from "./Profile.module.css";
 import MyPosts from "./MyPosts/MyPosts";
+import ProfileInfo from "./ProfileInfo/ProfileInfo";
 
 const Profile = () => {
   return (
     <div>
-      <div className="content-bg">
-        <img
-          src="https://i0.wp.com/picjumbo.com/wp-content/uploads/beautiful-nature-mountain-scenery-with-flowers-free-photo.jpg?w=600&quality=80"
-          alt=""
-        />
-      </div>
-      <div>Ava+Desc</div>
+      <ProfileInfo />
       <MyPosts />
     </div>
   );

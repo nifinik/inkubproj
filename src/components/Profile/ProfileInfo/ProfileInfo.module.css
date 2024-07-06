@@ -1,0 +1,14 @@
+.descrBlock {
+  padding: 10px;
+}
+
+.content_bg {
+  height: 350px;
+}
+
+.content_bg img {
+  display: block;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
